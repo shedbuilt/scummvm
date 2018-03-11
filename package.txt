@@ -1,0 +1,9 @@
+NAME=scummvm
+VERSION=2.0.0
+REVISION=1
+LICENSE=GPL-2.0-only LGPL-2.1-only GPL-3.0-only BSD-3-Clause
+SRC=https://github.com/scummvm/scummvm/archive/v2.0.0.tar.gz
+SRCMD5=9ae58adcfe24040a2c7e3b2388e20e30
+BUILDDEPS=sdl libjpeg-turbo libpng libmpeg2 libogg libvorbis flac libmad libtheora faad2 fluidsynth freetype2 zlib
+INSTALLDEPS=sdl libjpeg-turbo libpng libmpeg2 libogg libvorbis flac libmad libtheora faad2 fluidsynth freetype2 zlib
+PURGE=yes
